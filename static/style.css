@@ -4,8 +4,8 @@ body {
 	background-color: #eeeeee;
 }
 body, div, p {
-	font-size: 0.8em;
-	line-height: 140%;
+	font-size: 12px;
+	line-height: 17px;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 h1, h2, h3 {
