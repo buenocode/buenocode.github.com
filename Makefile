@@ -1,7 +1,7 @@
 build:
 	jekyll
 publish: build
-	rsync -r --stats _site/ mobilecologne@www.mobilecologne.de:www/
+	rsync -r --stats _site/ buenocode@www.buenocode.com:www/
 run:
 	jekyll --server --auto
 
