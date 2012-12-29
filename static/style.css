@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+}
+body, div, p {
+	font-size: 0.8em;
+	line-height: 140%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+a, a:link, a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: gray;
+	background-color: transparent;
+	text-decoration: underline;
+}
+img {
+	border: 0px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#header-frontpage {
+	margin: 0px;
+	padding: 0px;
+	background: url(Homepage-Frontpage-Logo-BG.png) repeat-x;
+}
+#header-frontpage h1 {
+	margin: 0px;
+	padding: 0px;
+	height: 400px;
+	background: url(Homepage-Frontpage-Logo.png) no-repeat center center;
+	font-size: 0;
+	text-indent: -99999px;
+}
+#header {
+	margin: 0;
+	padding: 0;
+	background: url(Homepage-Header-Logo-BG.png) repeat-x;
+	border-bottom: 4px solid #36a4b9;
+}
+#header h1 {
+	margin: 0 auto;
+	padding: 0;
+	width: 900px;
+	height: 120px;
+	background: url(Homepage-Header-Logo.png) no-repeat left center;
+	font-size: 0;
+	text-indent: -99999px;
+}
+#navi {
+	margin: 0 auto;
+	padding: 10px 20px;
+	width: 840px;
+	background-color: white;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+#navi span {
+	color: lightgray;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#body {
+	margin: 0 auto;
+	padding: 20px 20px;
+	width: 840px;
+	background-color: white;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+.center {
+	text-align: center;
+}
